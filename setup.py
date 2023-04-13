@@ -25,6 +25,8 @@ setup(
             "publisher_joint_trajectory_controller = \
                 ur_py_control.publisher_joint_trajectory_controller:main",
             'show_joint_states = ur_py_control.show_joint_states:main',
+            "publisher_joint_trajectory_controller_IK = \
+                ur_py_control.publisher_joint_trajectory_controller_IK:main",
         ],
     },
 )
